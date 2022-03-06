@@ -31,7 +31,7 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-background: url(images/img1.jpg);
+background: url(../images/img1.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 
