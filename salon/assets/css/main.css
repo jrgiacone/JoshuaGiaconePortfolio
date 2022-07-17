@@ -3878,6 +3878,19 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 480px) {
+
+			#main > header {
+				padding: 5em 3em 3em 3em ;
+			}
+
+				#main > header h2 {
+					font-size: 1.25em;
+					margin: 0 0 1em 0;
+				}
+
+		}
+
 	body.is-mobile #main > header {
 		background-attachment: scroll;
 	}
@@ -3979,9 +3992,9 @@ input, select, textarea {
 		background-color: rgba(29, 36, 42, 0.9);
 	}
 
-	body.is-mobile.landing #page-wrapper {
+	/* body.is-mobile.landing #page-wrapper {
 		background: none;
-	}
+	} */
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
